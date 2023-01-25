@@ -8,32 +8,25 @@ namespace Sa01.Aplicacao6
         {
             // Calcular o total geral: preco x valor-unitário de uma frota de aviões.
 
+            double[] precoAviao = new double[];
+            int[] valorUnitario = new int[];
+            double totalGeral;
+            string resp = "";
 
-            double totalGeral = 0;
-            int totalAvioes;
-
-            Console.Write("Informe a quantidade de aviões da frota: ");
-            totalAvioes = int.Parse(Console.ReadLine());
-
-            double[] precoUnidade = new double[totalAvioes];
-
-            int i = 0;
-
-            while (i < totalAvioes)
+            while (true)
             {
-                Console.Write($"Informe o valor do {i + 1}o. Avião R$: ");
-                precoUnidade[i] = double.Parse(Console.ReadLine());
+                for (int i = 0; i < precoAviao.Length; i++)
+                {
+                    Console.Write($"Informe o valor do {i + 1} Avião R$ ");
+                    precoAviao[i] = double.Parse(Console.ReadLine());
 
-                totalGeral += (precoUnidade[i]) * totalAvioes;
-
-                i++;
+                    for (int j = 0; j < UPPER3; j++)
+                    {
+                        
+                    }
+                }
             }
 
-            Console.WriteLine();
-            var e = new String('=', 44);
-            Console.WriteLine(e);
-            Console.Write($" Total Geral da Frota R$ {totalGeral.ToString("N2")} Reais\n");
-            Console.WriteLine(e);
         }
     }
 }
