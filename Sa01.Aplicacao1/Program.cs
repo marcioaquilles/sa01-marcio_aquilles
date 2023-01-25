@@ -14,7 +14,7 @@ namespace Sa01.Aplicacao1
 
             double valorAviao1, valorAviao2, valorTotal;
 
-            Console.Write("Inform o valor do Primeiro Avião: ");
+            Console.Write("Informe o valor do Primeiro Avião: ");
             valorAviao1 = double.Parse(Console.ReadLine());
             Console.Write("Informe o valor do Segundo Avião: ");
             valorAviao2 = double.Parse(Console.ReadLine());
@@ -26,6 +26,7 @@ namespace Sa01.Aplicacao1
             Console.WriteLine(e);
             Console.Write($" Valor dos Aviões R$ {valorTotal.ToString("N2")} Reais\n");
             Console.WriteLine(e);
+            Console.ReadLine();
         }
     }
 }

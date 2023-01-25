@@ -25,6 +25,8 @@ namespace Sa01.Aplicacao2
             Console.WriteLine(e);
             Console.Write($" Já se passaram {diff} anos em relação ao ano atual {anoAtual}\n");
             Console.WriteLine(e);
+            Console.ReadLine();
+
         }
     }
 }

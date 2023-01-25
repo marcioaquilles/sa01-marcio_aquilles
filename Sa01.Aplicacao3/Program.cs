@@ -21,6 +21,8 @@ namespace Sa01.Aplicacao3
             Console.WriteLine(e);
             Console.Write($" Quantidade total de assentos: {quantidaDeAssentos}\n");
             Console.WriteLine(e);
+            Console.ReadLine();
+
         }
     }
 }

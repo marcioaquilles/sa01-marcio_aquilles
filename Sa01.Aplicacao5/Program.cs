@@ -24,8 +24,7 @@ namespace Sa01.Aplicacao5
             Console.WriteLine(e);
             Console.Write($" Média do Faturamento R$ {mediaTotal.ToString("N2")} Reais\n");
             Console.WriteLine(e);
-            
-           
+            Console.ReadLine();           
 
         }
     }

@@ -8,9 +8,9 @@ namespace Sa01.Aplicacao4
         {
             // Dividir 5000 (cinco mil reais) para 10 clientes especiais da VoeAirlines.
 
-            double valorEmCaixa = 5000.00;
-            var totalClientes = 10;
-            double valor;
+            decimal valorEmCaixa = 5000.00m;
+            int totalClientes = 10;
+            decimal valor;
 
             valor = valorEmCaixa / totalClientes;
 
@@ -19,6 +19,7 @@ namespace Sa01.Aplicacao4
             Console.WriteLine(e);
             Console.Write($" Valor dividido para cada cliente R$ {valor.ToString("N2")} Reais\n");
             Console.WriteLine(e);
+            Console.ReadLine();
         }
     }
 }
