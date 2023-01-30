@@ -7,8 +7,7 @@ namespace Sa01.Aplicacao7
         public static void Main(string[] args)
         {
             // Calcular a soma total de cinco peças no estoque da oficina de aeronaves.
-
-            int pecas = 5;
+                       
             double[] precoPeca = new double[5];
             double somaTotal = 0;
 
@@ -24,6 +23,7 @@ namespace Sa01.Aplicacao7
             Console.WriteLine(e);
             Console.Write($" Valor Total das Peças R$ {(somaTotal).ToString("N2")} Reais\n");
             Console.WriteLine(e);
+            Console.ReadLine();
         }
     }
 }
